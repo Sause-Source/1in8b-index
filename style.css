@@ -1,0 +1,28 @@
+.index-container {
+  z-index: 100;
+  padding:16px;
+  background:var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  margin-top: 10px;
+  h3 {
+    margin: 0px;
+  }
+  dl {
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    gap: 4px 12px;
+    align-items: center;
+  }
+  dt {
+    font-size: 15px;
+    color: var(--stamp);
+    color: var(--ink2);
+  }
+  dd {
+    margin-inline-start: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--stamp);
+  }
+}
