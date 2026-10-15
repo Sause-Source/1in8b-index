@@ -34,7 +34,7 @@ function calcIndex(parameter) {
 } 
 function createAverageElement(container) {
     let headingElement = document.createElement('h3');
-    headingElement.innerText = '各パラメータの平均指数';
+    headingElement.innerText = '人生全体における平均指数';
     container.appendChild(headingElement);
     let term_text = "";
     let termElements = [];
